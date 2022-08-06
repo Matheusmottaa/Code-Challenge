@@ -1,7 +1,7 @@
 
 // Time Complexity O(1). 
 // Space Complexity O(1).
-function SumOfMultiplies(){ 
+function SumOfMultiples(){ 
   let sum = 0; 
   for(let i=0;i<1000;i++){ 
     if(i%3===0||i%5===0)
@@ -10,4 +10,4 @@ function SumOfMultiplies(){
   return sum; 
 }
 
-console.log(SumOfMultiplies()); 
+console.log(SumOfMultiples()); 
